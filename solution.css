@@ -92,3 +92,20 @@
     width: 250px;
     height: 250px;
 }
+
+/* EX 10 */
+.ex-10-icon{
+    animation: ruotated 1s linear infinite;
+    transform: translate(-50%, -50%);
+    
+}
+
+@keyframes ruotated {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg); /* Ruota il div da 0 gradi */
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(360deg); /* Ruota il div a 360 gradi (una rotazione completa) */
+      }
+    
+}
