@@ -159,7 +159,7 @@
 
 /* EX 13 */
 .ex-13-button:hover .ex-13-top-white{
-    animation: move-it2-top 2s  infinite ;
+    animation: move-it2-top 3s linear  ;
 }
 
 @keyframes move-it2-top {
@@ -201,7 +201,7 @@
 
 
 .ex-13-button:hover .ex-13-bottom-white{
-    animation: move-it2-bottom 2s  linear infinite ;
+    animation: move-it2-bottom 3s  linear  ;
 }
 
 @keyframes move-it2-bottom {
